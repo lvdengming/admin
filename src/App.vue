@@ -2,6 +2,13 @@
 import { RouterLink, RouterView } from 'vue-router';
 </script>
 
-<template>hello, world</template>
+<template>
+    <section>hello</section>
+</template>
 
-<style scoped></style>
+<style lang="scss" scoped>
+section {
+    color: $color;
+    background-color: #ff1233;
+}
+</style>
