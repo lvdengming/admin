@@ -1,6 +1,5 @@
-#!/usr/bin/env sh
-. "$(dirname -- "$0")/_/husky.sh"
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
 
-# config website: https://typicode.github.io/husky/getting-started.html
-
-
+# config more detail, view: https://typicode.github.io/husky/getting-started.html
+npx lint-staged
