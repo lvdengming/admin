@@ -43,7 +43,7 @@
         "*.{vue,js,jsx,cjs,mjs,ts,tsx,cts,mts}": "eslint --cache --fix",
         "*.css": "stylelint --fix",
         "*.{js,css,md}": "prettier --write",
-        "*": "prettier --write"
+        "*.{md}": "prettier --write"
     },
     "prettier": {
         "$schema": "https://json.schemastore.org/prettierrc",
